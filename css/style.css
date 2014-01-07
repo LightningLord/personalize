@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family:  sans-serif;
   color: #FAF3BC;
   background: #191970 ;
 }
@@ -68,6 +68,7 @@ ul.nav li a {
   padding: 10px 0px;
   margin: 15px 0px;
   text-align: center;
+  font-size: 0.75em;
 }
 
 
