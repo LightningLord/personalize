@@ -19,6 +19,10 @@ h2 {
   color: #B4C34F;
 }
 
+img {
+  max-width: 100%;
+}
+
 .btn {
   color: #FAF3BC;
   background: #4FB69F url('img/texture.png') no-repeat right top;
@@ -71,11 +75,47 @@ ul.nav li a {
   font-size: 0.75em;
 }
 
-img {
-  max-width: 100%;
+
+@media screen and (max-width: 480px){
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12 { width: 100%;}
+
+  .nav ul li {
+    float: left;
+    margin: 5% 0;
+    width: 33.3%;
+    }
+
+  .nav ul li a {
+    -webkit-user-select: none;
+    font-size: 0.750em;
+  }
 }
 
 
+
+
+@media screen and (max-width: 1024px){
+  #logo, #links{
+    width: 100%;
+    text-align: center;
+  }
+
+  ul.nav {
+    text-align: center;
+    float: left;
+  }
+}
 
 
 
